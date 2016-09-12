@@ -6,5 +6,9 @@ public class Student {
 	public Student(String _name) {
 		name = _name;
 	}
+	
+	public String toString() {
+		return "I am " + name;
+	}
 
 }
