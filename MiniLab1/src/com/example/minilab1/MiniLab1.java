@@ -7,6 +7,7 @@ public class MiniLab1 {
 		System.out.println("Hello my first Java app!");
 		sumDigits(123);
 		Student s = new Student(null);
+		System.out.println(s);
 	}
 
 	private static void sumDigits(int number) {
